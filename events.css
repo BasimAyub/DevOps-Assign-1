@@ -1,0 +1,32 @@
+.column {
+  float: left;
+  padding: 10px;
+}
+
+.column.side {
+  width: 15%;
+}
+
+.column.middle {
+  width: 82%;
+}
+
+.small-heading {
+  background-color: #008000;
+  color: #fff;
+  /* margin-bottom: 0; */
+  display: inline;
+}
+
+.no-margin {
+  margin: 0;
+}
+
+p {
+  text-indent: 20px;
+}
+
+hr {
+  color: black;
+  border: 1px solid;
+}

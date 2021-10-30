@@ -1,0 +1,116 @@
+.column {
+  float: left;
+  padding: 5px;
+  padding-right: 0;
+  background-color: #DDFFDD;
+  border-top: 3px solid black;
+  border-bottom: 3px solid black;
+}
+
+.column.NEWS {
+  box-sizing: content-box;
+  width: 15%;
+  height: 981px;
+  background-color: #DDFFDD;
+  border-left: 3px solid black;
+  padding-left: 10px;
+}
+
+.column.middle {
+  box-sizing: content-box;
+  width: 73%;
+  border-right: 3px solid black;
+  padding-left: 10px;
+}
+
+/* LEFT SIDE NAVIVAGATION BAR */
+.nav-heading {
+  box-sizing: content-box;
+  text-align: center;
+  color: black;
+  font-size: 30px;
+  margin-block-start: 10px;
+  margin-block-end: 10px;
+}
+
+.left-side-nav {
+  box-sizing: content-box;
+  background-color: #FFFF88;
+  padding: 5px;
+}
+
+.left-side-nav ul {
+  box-sizing: content-box;
+  list-style-type: none;
+  padding: 0;
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+.left-side-nav ul li {
+  box-sizing: content-box;
+  display: block;
+  background-color: #FFFFCC;
+  margin-bottom: 5px;
+  padding: 14px 16px;
+}
+
+.left-side-nav ul li a {
+  box-sizing: content-box;
+  font-size: 15px;
+}
+
+/* MIDDLE */
+.main-heading {
+  box-sizing: content-box;
+  text-align: center;
+  color: black;
+  font-size: 30px;
+}
+
+.small-heading {
+  background-color: #008000;
+  color: #fff;
+  display: inline;
+}
+
+.no-margin {
+  margin: 0;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+p {
+  text-indent: 20px;
+}
+
+hr {
+  box-sizing: content-box;
+  color: black;
+  border: 1px solid;
+}
+
+div img {
+  box-sizing: content-box;
+  float: right;
+  padding: 20px;
+  padding-right: 0;
+}
+
+.polo {
+  box-sizing: content-box;
+  margin-bottom: 150px;
+}
+
+/* RIGHT SIDE NAVIVAGATION BAR */
+.EVENTS {
+  box-sizing: content-box;
+  width: 10%;
+  position: fixed;
+  background-color: #00EEEE;
+  border: 3px solid black;
+  margin-left: 2px;
+  right: 0px;
+}
